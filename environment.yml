@@ -1,0 +1,16 @@
+cat > environment.yml << 'EOL'
+name: chhunt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=23.0
+  - numpy>=1.20.0
+  - opencv>=4.5.0
+  - pillow>=8.0.0
+  - pytesseract>=0.3.8
+  - pip:
+    - pyobjc>=7.3.0
+    - mss>=6.1.0
+    - pyautogui>=0.9.52

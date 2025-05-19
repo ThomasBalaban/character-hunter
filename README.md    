@@ -1,0 +1,124 @@
+Dataset Structure
+
+Images are stored in a folder structure organized by character name:
+
+dataset/
+  ├── Pikachu/
+  │   ├── Pikachu_20250516_# Character Hunter
+
+An automated AI training data collector for building character recognition datasets with minimal user effort.
+
+## Overview
+
+Character Hunter is a lightweight macOS application that:
+
+1. Monitors your Google searches for character names
+2. Captures images when you click on them
+3. Automatically labels and organizes these images
+4. Builds a structured dataset for AI training
+
+This tool simplifies the tedious process of building labeled datasets for character recognition models, making it perfect for game developers, AI researchers, or anyone wanting to train models to recognize specific characters or elements.
+
+## Features
+
+- **Minimal UI**: Tiny, non-intrusive floating window showing current status
+- **Automated Labeling**: Uses your Google searches to label images you click on
+- **Smart Parsing**: Separates character names from source/game titles
+- **Organized Storage**: Creates a clean folder structure for your data
+- **Background Operation**: Works silently while you browse the web
+
+## Installation
+
+### Prerequisites
+
+- macOS (10.14 or newer recommended)
+- Python 3.8+
+- Tesseract OCR
+
+### Setup
+
+1. Install Tesseract OCR:
+
+brew install tesseract
+
+
+2. Clone this repository:
+
+git clone https://github.com/yourusername/character-hunter.git cd character-hunter
+
+
+3. Create a virtual environment and install dependencies:
+
+python -m venv venv source venv/bin/activate pip install -r requirements.txt
+
+
+## Usage
+
+1. Run the application:
+
+python character_hunter.py
+
+
+2. A small status window will appear in the top-left corner of your screen.
+
+3. Open Chrome and search for characters you want to collect data for:
+- Format: "[character name] from [game/source]"
+- Example: "Pikachu from Pokemon" or "Mario - Super Mario Bros"
+
+4. When you find images you want to capture, simply click on them.
+
+5. Character Hunter will automatically:
+- Capture the image around your click
+- Label it with the character name from your search
+- Process and save it to the dataset folder
+
+6. The status window will keep you informed about the current operation.
+
+7. To close the application, click the × in the status window or press Ctrl+C in the terminal.
+
+## Project Structure
+
+The codebase is organized into modular components:
+
+character-hunter/ ├── character_hunter.py # Main application and entry point ├── status_window.py # Floating UI window ├── screen_watcher.py # Google search monitoring (OCR) ├── click_detector.py # Mouse click detection and image capture ├── data_tagger.py # Image processing and labeling ├── quality_controller.py # (Optional) Image-label validation ├── convert_to_yolo_format.py # Dataset conversion for training ├── init.py # Package initialization ├── requirements.txt # Dependencies └── README.md # Documentation
+
+
+Each component is responsible for a specific function:
+
+- `character_hunter.py`: Orchestrates the application
+- `status_window.py`: Provides minimal UI feedback
+- `screen_watcher.py`: Monitors Chrome for Google searches
+- `click_detector.py`: Detects clicks and captures images
+- `data_tagger.py`: Processes and labels captured images
+- `quality_controller.py`: Optional validation of image-label pairs
+- `convert_to_yolo_format.py`: Converts dataset to YOLO format
+
+## Using the Dataset for Training
+
+The collected dataset is ready to be used with popular object detection frameworks like YOLOv8:
+
+1. Generate a YOLO dataset format:
+
+Example conversion script (not included)
+
+python convert_to_yolo_format.py --input dataset/ --output yolo_dataset/
+
+
+2. Train your model:
+
+Example training command
+
+yolo task=detect mode=train data=yolo_dataset.yaml epochs=100 imgsz=640
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- [OpenCV](https://opencv.org/)
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+- [PyAutoGUI](https://pyautogui.readthedocs.io/)
+- [MSS](https://python-mss.readthedocs.io/)
+
