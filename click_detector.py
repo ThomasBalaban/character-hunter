@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # click_detector.py
 # Click detection and image capture for Character Hunter
+# Updated for improved Mac trackpad support
 
 import threading
 import time
@@ -9,6 +10,7 @@ import cv2
 import pyautogui
 import mss
 import logging
+from pynput import mouse
 
 logger = logging.getLogger("CharacterHunter.ClickDetector")
 
@@ -20,27 +22,28 @@ class ClickDetector:
         self.screen_watcher = screen_watcher
         self.running = False
         self.thread = None
+        self.mouse_listener = None
         self.sct = mss.mss()
         # Size of region to capture around click (half-width and half-height)
         self.capture_radius = 150  # Will create a 300x300 image
         # Minimum time between captures to avoid duplicates (seconds)
-        self.min_capture_interval = 0.5
+        self.min_capture_interval = 1.0  # Increased to 1 second for trackpad
         self.last_capture_time = 0
     
     def start(self):
-        """Start monitoring clicks in a separate thread"""
+        """Start monitoring clicks using pynput for better trackpad support"""
         if not self.running:
             self.running = True
-            self.thread = threading.Thread(target=self._click_monitor_loop)
-            self.thread.daemon = True
-            self.thread.start()
-            logger.info("ClickDetector started")
+            # Use pynput for more reliable click detection, especially with trackpads
+            self.mouse_listener = mouse.Listener(on_click=self._on_click)
+            self.mouse_listener.start()
+            logger.info("ClickDetector started with pynput listener")
     
     def stop(self):
         """Stop the monitoring thread"""
         self.running = False
-        if self.thread:
-            self.thread.join(timeout=1.0)
+        if self.mouse_listener:
+            self.mouse_listener.stop()
             logger.info("ClickDetector stopped")
     
     def _capture_image_at_click(self, x, y):
@@ -61,56 +64,61 @@ class ClickDetector:
         
         return screenshot
     
-    def _click_monitor_loop(self):
-        """Main loop to monitor for clicks"""
-        # Store the last position to avoid duplicate captures
-        last_x, last_y = 0, 0
-        
-        while self.running:
-            try:
-                # Check for mouse clicks (using pyautogui or pynput could work too)
-                if pyautogui.mouseDown():
-                    # Get current position
-                    x, y = pyautogui.position()
-                    
-                    # Check if this is a new position since last capture
-                    distance = ((x - last_x) ** 2 + (y - last_y) ** 2) ** 0.5
-                    current_time = time.time()
-                    
-                    # Only capture if we have a significant distance change and enough time passed
-                    if (distance > 20 and 
-                        current_time - self.last_capture_time > self.min_capture_interval):
-                        
-                        # Check if we have a valid search
-                        current_search = self.screen_watcher.get_current_search()
-                        if current_search:
-                            # Update status
-                            self.status_window.update_status(f"Clicked! Capturing image...")
-                            
-                            # Capture image
-                            img = self._capture_image_at_click(x, y)
-                            
-                            # Process and save the image
-                            if img is not None:
-                                # Import here to avoid circular imports
-                                from data_tagger import DataTagger
-                                
-                                # Process and save image
-                                threading.Thread(
-                                    target=self._process_and_save_image,
-                                    args=(img, current_search)
-                                ).start()
-                            
-                            # Update state
-                            last_x, last_y = x, y
-                            self.last_capture_time = current_time
+    def _on_click(self, x, y, button, pressed):
+        """Handle mouse click events from pynput"""
+        try:
+            # Only process on button press (not release), and only left clicks
+            if not pressed or button != mouse.Button.left:
+                return
+            
+            # Check if click is on the status window - ignore if it is
+            # Get window position and size
+            win_x = self.status_window.root.winfo_x()
+            win_y = self.status_window.root.winfo_y()
+            win_width = self.status_window.root.winfo_width()
+            win_height = self.status_window.root.winfo_height()
+            
+            # If click is within status window bounds, ignore it
+            if (win_x <= x <= win_x + win_width and
+                win_y <= y <= win_y + win_height):
+                logger.debug("Click detected on status window - ignoring")
+                return
+            
+            # Check if enough time has passed since last capture
+            current_time = time.time()
+            if current_time - self.last_capture_time <= self.min_capture_interval:
+                logger.debug("Click ignored due to debounce")
+                return
                 
-                # Sleep to avoid high CPU usage
-                time.sleep(0.1)
+            # Check if we have a valid search
+            current_search = self.screen_watcher.get_current_search()
+            if not current_search:
+                logger.debug("Click ignored - no active search detected")
+                return
                 
-            except Exception as e:
-                logger.error(f"Error in click detector: {e}")
-                time.sleep(1.0)
+            # Update status
+            self.status_window.update_status(f"Clicked! Capturing image...")
+            logger.info(f"Click detected at ({x}, {y})")
+            
+            # Capture image
+            img = self._capture_image_at_click(x, y)
+            
+            # Process and save the image
+            if img is not None:
+                # Import here to avoid circular imports
+                from data_tagger import DataTagger
+                
+                # Process and save image
+                threading.Thread(
+                    target=self._process_and_save_image,
+                    args=(img, current_search)
+                ).start()
+                
+                # Update last capture time
+                self.last_capture_time = current_time
+            
+        except Exception as e:
+            logger.error(f"Error in click detector: {e}")
     
     def _process_and_save_image(self, img, search_info):
         """Process the captured image and save it with appropriate metadata"""

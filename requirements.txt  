@@ -1,0 +1,26 @@
+# Character Hunter - Dependencies
+
+# Core packages
+numpy>=1.20.0
+opencv-python>=4.5.0
+pillow>=8.0.0
+pytesseract>=0.3.8
+
+# Screen capture and automation
+mss>=6.1.0
+pyautogui>=0.9.52
+pynput>=1.7.6  # Added for better trackpad support
+pyobjc>=7.3.0  # For macOS AppKit
+
+# UI
+tk>=0.1.0  # Usually comes with Python, but listed for clarity
+
+# Optional - For image-label validation (CLIP)
+# torch>=1.9.0
+# torchvision>=0.10.0
+# ftfy>=6.0.3
+# regex>=2021.8.3
+# transformers>=4.10.0
+
+# Ensure you have Tesseract OCR installed on your system
+# For macOS: brew install tesseract

@@ -3,6 +3,9 @@
 # Status window UI component for Character Hunter
 
 import tkinter as tk
+import logging
+
+logger = logging.getLogger("CharacterHunter.StatusWindow")
 
 class StatusWindow:
     """Small floating status window to display app status"""
@@ -48,6 +51,8 @@ class StatusWindow:
         # Variables to track window movement
         self.x = 0
         self.y = 0
+        
+        logger.info("Status window initialized")
     
     def start_move(self, event):
         """Begin window drag operation"""
@@ -69,13 +74,28 @@ class StatusWindow:
     
     def close_window(self, event=None):
         """Close the application"""
+        logger.info("Closing status window and application")
         self.root.quit()
     
     def update_status(self, message):
         """Update the status display with a new message"""
-        self.status_var.set(message)
-        self.root.update()
+        try:
+            self.status_var.set(message)
+            self.root.update_idletasks()  # Use update_idletasks to avoid blocking
+            logger.debug(f"Status updated: {message}")
+        except Exception as e:
+            logger.error(f"Error updating status: {e}")
     
     def start(self):
         """Start the main UI loop"""
+        logger.info("Starting status window main loop")
         self.root.mainloop()
+        
+    def get_window_position(self):
+        """Get the current window position and size for click detection"""
+        return {
+            'x': self.root.winfo_x(),
+            'y': self.root.winfo_y(),
+            'width': self.root.winfo_width(),
+            'height': self.root.winfo_height()
+        }

@@ -2,3 +2,611 @@
 2025-05-19 19:05:30,383 - CharacterHunter.Main - INFO - Starting Character Hunter application
 2025-05-19 19:05:30,383 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
 2025-05-19 19:05:30,384 - CharacterHunter.ClickDetector - INFO - ClickDetector started
+2025-05-19 19:12:07,200 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:12:07,200 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:12:07,201 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:12:07,201 - CharacterHunter.ClickDetector - INFO - ClickDetector started
+2025-05-19 19:12:09,595 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:17,668 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:22,717 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:27,778 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:32,826 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:43,908 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:48,965 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:54,020 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:12:59,089 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:13:04,150 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:13:09,219 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:13:14,266 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:13:19,352 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:13:25,415 - CharacterHunter.ScreenWatcher - ERROR - Error in screen watcher: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:23,526 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:19:23,528 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized
+2025-05-19 19:19:23,528 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:19:23,528 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:19:23,528 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:19:23,529 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:19:23,532 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:19:26,632 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:27,687 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:28,730 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:29,798 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:30,865 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:31,927 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:32,987 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:34,038 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:35,113 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:36,186 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:37,259 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:38,335 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:39,394 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:40,447 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:41,514 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:42,578 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:47,660 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:48,726 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:49,777 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:50,847 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:51,919 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:52,987 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:54,052 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:55,125 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:56,199 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:19:57,267 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:06,369 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:07,433 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:08,504 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:09,561 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:10,623 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:11,692 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:12,768 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:13,838 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:14,910 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:15,953 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:17,020 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:25,103 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:26,175 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:27,242 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:28,294 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:29,361 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:33,432 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:34,501 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:35,553 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:36,622 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:37,698 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:38,771 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:39,835 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:40,907 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:20:41,974 - CharacterHunter.ScreenWatcher - ERROR - Error extracting search query: /usr/local/bin/tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-05-19 19:21:25,374 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:21:25,374 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:21:25,374 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:21:25,467 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:21:25,468 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:21:25,468 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:21:25,926 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:21:25,926 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:21:25,926 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:21:26,138 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:21:26,138 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:21:26,138 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:21:26,143 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:24:26,199 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:24:26,202 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:24:26,202 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:24:26,202 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:24:26,202 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:24:26,203 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:24:26,203 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:24:26,207 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:24:31,679 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy+fnaf+security+breach
+2025-05-19 19:24:33,643 - CharacterHunter.ClickDetector - INFO - Click detected at (303.99609375, 446.0390625)
+2025-05-19 19:24:33,698 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:24:33,704 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192433_703521.png
+2025-05-19 19:24:33,704 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192433_703521.json
+2025-05-19 19:24:33,705 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:24:36,235 - CharacterHunter.ClickDetector - INFO - Click detected at (525.66796875, 479.46484375)
+2025-05-19 19:24:36,274 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:24:36,280 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192436_279944.png
+2025-05-19 19:24:36,280 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192436_279944.json
+2025-05-19 19:24:36,281 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:24:37,675 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy+fnaft+security+breach
+2025-05-19 19:24:38,888 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy+fnaf+security+breach
+2025-05-19 19:24:40,365 - CharacterHunter.ClickDetector - INFO - Click detected at (623.26171875, 681.109375)
+2025-05-19 19:24:40,428 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:24:40,442 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192440_440557.png
+2025-05-19 19:24:40,443 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192440_440557.json
+2025-05-19 19:24:40,443 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:24:45,361 - CharacterHunter.ClickDetector - INFO - Click detected at (398.84375, 693.46875)
+2025-05-19 19:24:45,409 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:24:45,419 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192445_418162.png
+2025-05-19 19:24:45,420 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192445_418162.json
+2025-05-19 19:24:45,420 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:24:50,689 - CharacterHunter.ClickDetector - INFO - Click detected at (382.0859375, 715.4609375)
+2025-05-19 19:24:50,729 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:24:50,735 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192450_734085.png
+2025-05-19 19:24:50,735 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192450_734085.json
+2025-05-19 19:24:50,735 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:24:57,352 - CharacterHunter.ClickDetector - INFO - Click detected at (1016.796875, 678.47265625)
+2025-05-19 19:24:57,404 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:24:57,415 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192457_414139.png
+2025-05-19 19:24:57,415 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192457_414139.json
+2025-05-19 19:24:57,416 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:00,298 - CharacterHunter.ClickDetector - INFO - Click detected at (1010.828125, 431.28125)
+2025-05-19 19:25:00,344 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:00,350 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192500_349259.png
+2025-05-19 19:25:00,350 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192500_349259.json
+2025-05-19 19:25:00,350 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:02,333 - CharacterHunter.ClickDetector - INFO - Click detected at (426.05859375, 542.30859375)
+2025-05-19 19:25:02,387 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:02,398 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192502_396704.png
+2025-05-19 19:25:02,398 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192502_396704.json
+2025-05-19 19:25:02,398 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:04,452 - CharacterHunter.ClickDetector - INFO - Click detected at (639.57421875, 776.56640625)
+2025-05-19 19:25:04,494 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:04,501 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192504_500786.png
+2025-05-19 19:25:04,502 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192504_500786.json
+2025-05-19 19:25:04,502 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:06,552 - CharacterHunter.ClickDetector - INFO - Click detected at (882.61328125, 611.19921875)
+2025-05-19 19:25:06,595 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:06,602 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192506_600968.png
+2025-05-19 19:25:06,602 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192506_600968.json
+2025-05-19 19:25:06,602 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:09,385 - CharacterHunter.ClickDetector - INFO - Click detected at (551.00390625, 816.984375)
+2025-05-19 19:25:09,427 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:09,434 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192509_433246.png
+2025-05-19 19:25:09,434 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192509_433246.json
+2025-05-19 19:25:09,434 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:11,395 - CharacterHunter.ClickDetector - INFO - Click detected at (380.6640625, 821.8515625)
+2025-05-19 19:25:11,459 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:11,472 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192511_470952.png
+2025-05-19 19:25:11,473 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192511_470952.json
+2025-05-19 19:25:11,473 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:15,635 - CharacterHunter.ClickDetector - INFO - Click detected at (439.12890625, 536.6875)
+2025-05-19 19:25:15,675 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:15,681 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192515_681222.png
+2025-05-19 19:25:15,682 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192515_681222.json
+2025-05-19 19:25:15,682 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:17,670 - CharacterHunter.ClickDetector - INFO - Click detected at (610.8984375, 535.015625)
+2025-05-19 19:25:17,726 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:17,740 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192517_737434.png
+2025-05-19 19:25:17,740 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192517_737434.json
+2025-05-19 19:25:17,741 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:18,761 - CharacterHunter.ClickDetector - INFO - Click detected at (802.1953125, 509.62890625)
+2025-05-19 19:25:18,803 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:18,810 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192518_809111.png
+2025-05-19 19:25:18,810 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192518_809111.json
+2025-05-19 19:25:18,810 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:20,489 - CharacterHunter.ClickDetector - INFO - Click detected at (646.640625, 491.01171875)
+2025-05-19 19:25:20,532 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:20,538 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192520_537082.png
+2025-05-19 19:25:20,538 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192520_537082.json
+2025-05-19 19:25:20,538 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:21,888 - CharacterHunter.ClickDetector - INFO - Click detected at (477.21484375, 488.046875)
+2025-05-19 19:25:21,926 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:21,933 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192521_932362.png
+2025-05-19 19:25:21,933 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192521_932362.json
+2025-05-19 19:25:21,933 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:25,352 - CharacterHunter.ClickDetector - INFO - Click detected at (791.66015625, 490.30859375)
+2025-05-19 19:25:25,391 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:25,397 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192525_396837.png
+2025-05-19 19:25:25,397 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192525_396837.json
+2025-05-19 19:25:25,397 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:27,249 - CharacterHunter.ClickDetector - INFO - Click detected at (384.6640625, 522.3984375)
+2025-05-19 19:25:27,302 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:27,312 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192527_311856.png
+2025-05-19 19:25:27,313 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192527_311856.json
+2025-05-19 19:25:27,313 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:29,110 - CharacterHunter.ClickDetector - INFO - Click detected at (670.37109375, 440.91796875)
+2025-05-19 19:25:29,147 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:29,155 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192529_153717.png
+2025-05-19 19:25:29,155 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192529_153717.json
+2025-05-19 19:25:29,155 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:32,023 - CharacterHunter.ClickDetector - INFO - Click detected at (374.25390625, 481.2734375)
+2025-05-19 19:25:32,080 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:32,093 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192532_090767.png
+2025-05-19 19:25:32,093 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192532_090767.json
+2025-05-19 19:25:32,094 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:33,502 - CharacterHunter.ClickDetector - INFO - Click detected at (555.3984375, 667.15234375)
+2025-05-19 19:25:33,562 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:33,576 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192533_574983.png
+2025-05-19 19:25:33,576 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192533_574983.json
+2025-05-19 19:25:33,577 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:34,791 - CharacterHunter.ClickDetector - INFO - Click detected at (869.0625, 692.03515625)
+2025-05-19 19:25:34,837 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:34,851 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192534_848296.png
+2025-05-19 19:25:34,851 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192534_848296.json
+2025-05-19 19:25:34,852 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:36,310 - CharacterHunter.ClickDetector - INFO - Click detected at (958.94140625, 663.3828125)
+2025-05-19 19:25:36,361 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:36,376 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192536_374889.png
+2025-05-19 19:25:36,376 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192536_374889.json
+2025-05-19 19:25:36,377 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:37,487 - CharacterHunter.ClickDetector - INFO - Click detected at (806.578125, 667.69921875)
+2025-05-19 19:25:37,543 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:37,550 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192537_549352.png
+2025-05-19 19:25:37,550 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192537_549352.json
+2025-05-19 19:25:37,550 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:39,545 - CharacterHunter.ClickDetector - INFO - Click detected at (577.6484375, 408.12109375)
+2025-05-19 19:25:39,589 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:39,596 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192539_595435.png
+2025-05-19 19:25:39,596 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192539_595435.json
+2025-05-19 19:25:39,596 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:41,002 - CharacterHunter.ClickDetector - INFO - Click detected at (390.07421875, 678.765625)
+2025-05-19 19:25:41,043 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:41,049 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192541_048593.png
+2025-05-19 19:25:41,049 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192541_048593.json
+2025-05-19 19:25:41,050 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:45,693 - CharacterHunter.ClickDetector - INFO - Click detected at (550.125, 574.25390625)
+2025-05-19 19:25:45,774 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:45,781 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192545_780821.png
+2025-05-19 19:25:45,782 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192545_780821.json
+2025-05-19 19:25:45,782 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:48,548 - CharacterHunter.ClickDetector - INFO - Click detected at (521.8671875, 793.22265625)
+2025-05-19 19:25:48,587 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:48,593 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192548_592287.png
+2025-05-19 19:25:48,593 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192548_592287.json
+2025-05-19 19:25:48,593 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:55,915 - CharacterHunter.ClickDetector - INFO - Click detected at (777.859375, 534.29296875)
+2025-05-19 19:25:55,954 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:55,961 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192555_960565.png
+2025-05-19 19:25:55,961 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192555_960565.json
+2025-05-19 19:25:55,962 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:25:59,487 - CharacterHunter.ClickDetector - INFO - Click detected at (1013.78515625, 584.97265625)
+2025-05-19 19:25:59,525 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:25:59,533 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192559_532470.png
+2025-05-19 19:25:59,533 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192559_532470.json
+2025-05-19 19:25:59,533 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:01,990 - CharacterHunter.ClickDetector - INFO - Click detected at (447.31640625, 687.84375)
+2025-05-19 19:26:02,035 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:02,046 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192602_044686.png
+2025-05-19 19:26:02,046 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192602_044686.json
+2025-05-19 19:26:02,047 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:05,761 - CharacterHunter.ClickDetector - INFO - Click detected at (606.40234375, 659.890625)
+2025-05-19 19:26:05,834 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:05,841 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192605_840309.png
+2025-05-19 19:26:05,841 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192605_840309.json
+2025-05-19 19:26:05,842 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:08,856 - CharacterHunter.ClickDetector - INFO - Click detected at (575.94921875, 616.90625)
+2025-05-19 19:26:08,901 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:08,909 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192608_908713.png
+2025-05-19 19:26:08,909 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192608_908713.json
+2025-05-19 19:26:08,909 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:11,870 - CharacterHunter.ClickDetector - INFO - Click detected at (535.89453125, 536.890625)
+2025-05-19 19:26:11,924 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:11,933 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192611_932378.png
+2025-05-19 19:26:11,934 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192611_932378.json
+2025-05-19 19:26:11,934 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:14,534 - CharacterHunter.ClickDetector - INFO - Click detected at (424.1171875, 467.23828125)
+2025-05-19 19:26:14,590 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:14,604 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192614_602050.png
+2025-05-19 19:26:14,604 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192614_602050.json
+2025-05-19 19:26:14,605 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:16,537 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy+fnaft+security+breach
+2025-05-19 19:26:17,296 - CharacterHunter.ClickDetector - INFO - Click detected at (590.6171875, 477.35546875)
+2025-05-19 19:26:17,336 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:17,343 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaft+security+breach/roxy+fnaft+security+breach_20250519_192617_342063.png
+2025-05-19 19:26:17,343 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaft+security+breach/roxy+fnaft+security+breach_20250519_192617_342063.json
+2025-05-19 19:26:17,343 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaft+security+breach' in 'dataset/roxy+fnaft+security+breach'
+2025-05-19 19:26:17,805 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy+fnaf+security+breach
+2025-05-19 19:26:18,858 - CharacterHunter.ClickDetector - INFO - Click detected at (849.0546875, 474.63671875)
+2025-05-19 19:26:18,903 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:18,913 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192618_911875.png
+2025-05-19 19:26:18,913 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192618_911875.json
+2025-05-19 19:26:18,913 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:23,785 - CharacterHunter.ClickDetector - INFO - Click detected at (343.0, 499.3671875)
+2025-05-19 19:26:23,824 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:23,831 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192623_830011.png
+2025-05-19 19:26:23,831 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192623_830011.json
+2025-05-19 19:26:23,831 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:27,943 - CharacterHunter.ClickDetector - INFO - Click detected at (370.73046875, 508.13671875)
+2025-05-19 19:26:27,984 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:27,998 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192627_996836.png
+2025-05-19 19:26:27,998 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192627_996836.json
+2025-05-19 19:26:27,999 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:32,364 - CharacterHunter.ClickDetector - INFO - Click detected at (725.4921875, 573.76171875)
+2025-05-19 19:26:32,404 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:32,412 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192632_411206.png
+2025-05-19 19:26:32,413 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192632_411206.json
+2025-05-19 19:26:32,413 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:34,977 - CharacterHunter.ClickDetector - INFO - Click detected at (473.5390625, 386.8359375)
+2025-05-19 19:26:35,015 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:35,022 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192635_021058.png
+2025-05-19 19:26:35,022 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192635_021058.json
+2025-05-19 19:26:35,022 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:36,086 - CharacterHunter.ClickDetector - INFO - Click detected at (302.31640625, 342.44140625)
+2025-05-19 19:26:36,127 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:36,135 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192636_134336.png
+2025-05-19 19:26:36,135 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192636_134336.json
+2025-05-19 19:26:36,135 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:37,388 - CharacterHunter.ClickDetector - INFO - Click detected at (683.2734375, 341.86328125)
+2025-05-19 19:26:37,434 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:37,441 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192637_440322.png
+2025-05-19 19:26:37,441 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192637_440322.json
+2025-05-19 19:26:37,441 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:38,582 - CharacterHunter.ClickDetector - INFO - Click detected at (900.6015625, 331.87109375)
+2025-05-19 19:26:38,624 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:38,631 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192638_630112.png
+2025-05-19 19:26:38,632 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192638_630112.json
+2025-05-19 19:26:38,632 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:44,185 - CharacterHunter.ClickDetector - INFO - Click detected at (764.15234375, 582.6484375)
+2025-05-19 19:26:44,227 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:44,235 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192644_234205.png
+2025-05-19 19:26:44,235 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192644_234205.json
+2025-05-19 19:26:44,235 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:45,191 - CharacterHunter.ClickDetector - INFO - Click detected at (552.45703125, 564.76953125)
+2025-05-19 19:26:45,233 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:45,240 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192645_239402.png
+2025-05-19 19:26:45,240 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192645_239402.json
+2025-05-19 19:26:45,240 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:46,344 - CharacterHunter.ClickDetector - INFO - Click detected at (358.72265625, 579.80078125)
+2025-05-19 19:26:46,382 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:46,390 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192646_388754.png
+2025-05-19 19:26:46,390 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192646_388754.json
+2025-05-19 19:26:46,390 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:48,715 - CharacterHunter.ClickDetector - INFO - Click detected at (425.26953125, 695.37890625)
+2025-05-19 19:26:48,756 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:48,763 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192648_762015.png
+2025-05-19 19:26:48,763 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192648_762015.json
+2025-05-19 19:26:48,764 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:51,852 - CharacterHunter.ClickDetector - INFO - Click detected at (947.33984375, 639.93359375)
+2025-05-19 19:26:51,901 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:51,911 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192651_910390.png
+2025-05-19 19:26:51,912 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192651_910390.json
+2025-05-19 19:26:51,912 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:26:55,849 - CharacterHunter.ClickDetector - INFO - Click detected at (1562.21484375, 855.12109375)
+2025-05-19 19:26:55,910 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:26:55,922 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192655_919801.png
+2025-05-19 19:26:55,923 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192655_919801.json
+2025-05-19 19:26:55,923 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:27:03,186 - CharacterHunter.ClickDetector - INFO - Click detected at (288.44921875, 809.69921875)
+2025-05-19 19:27:03,238 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:27:03,247 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192703_245576.png
+2025-05-19 19:27:03,247 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192703_245576.json
+2025-05-19 19:27:03,247 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:27:05,765 - CharacterHunter.ClickDetector - INFO - Click detected at (357.91796875, 503.3671875)
+2025-05-19 19:27:05,821 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:27:05,831 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192705_830316.png
+2025-05-19 19:27:05,832 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192705_830316.json
+2025-05-19 19:27:05,832 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:27:07,166 - CharacterHunter.ClickDetector - INFO - Click detected at (374.55859375, 768.46875)
+2025-05-19 19:27:07,227 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:27:07,244 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192707_241547.png
+2025-05-19 19:27:07,245 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192707_241547.json
+2025-05-19 19:27:07,246 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:27:08,458 - CharacterHunter.ClickDetector - INFO - Click detected at (793.99609375, 764.140625)
+2025-05-19 19:27:08,501 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:27:08,511 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192708_511081.png
+2025-05-19 19:27:08,512 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192708_511081.json
+2025-05-19 19:27:08,512 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:27:09,860 - CharacterHunter.ClickDetector - INFO - Click detected at (96.9609375, 600.12109375)
+2025-05-19 19:27:09,912 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:27:09,924 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192709_921566.png
+2025-05-19 19:27:09,924 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192709_921566.json
+2025-05-19 19:27:09,925 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:27:10,887 - CharacterHunter.ClickDetector - INFO - Click detected at (806.83984375, 870.5)
+2025-05-19 19:27:10,942 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:27:10,960 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192710_958399.png
+2025-05-19 19:27:10,961 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_192710_958399.json
+2025-05-19 19:27:10,961 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:27:12,872 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:27:12,872 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:27:12,872 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:27:13,365 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:29:29,600 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:29:29,601 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:29:29,601 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:29:29,601 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:29:29,602 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:29:29,602 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:29:29,602 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:29:29,607 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:30:30,867 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:30:30,867 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:30:30,867 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:30:31,078 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:32:33,020 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:32:33,107 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:32:33,107 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:32:33,107 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:32:33,107 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:32:33,107 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:32:33,108 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:32:33,108 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:32:33,112 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:32:46,173 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:32:46,174 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:32:46,174 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:32:46,206 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:33:04,053 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:33:04,134 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:33:04,135 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:33:04,135 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:33:04,135 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:33:04,135 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:33:04,135 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:33:04,136 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:33:04,139 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:33:11,660 - CharacterHunter.ScreenWatcher - INFO - New search detected: oo =6 2) UnCat ~C roxy fnaf security breach
+2025-05-19 19:33:11,818 - CharacterHunter.ClickDetector - INFO - Click detected at (530.8046875, 142.85546875)
+2025-05-19 19:33:11,884 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:11,894 - CharacterHunter.DataTagger - INFO - Saved image to dataset/oo =6 2) UnCat ~C roxy fnaf security breach/oo =6 2) UnCat ~C roxy fnaf security breach_20250519_193311_892839.png
+2025-05-19 19:33:11,894 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/oo =6 2) UnCat ~C roxy fnaf security breach/oo =6 2) UnCat ~C roxy fnaf security breach_20250519_193311_892839.json
+2025-05-19 19:33:11,894 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'oo =6 2) UnCat ~C roxy fnaf security breach' in 'dataset/oo =6 2) UnCat ~C roxy fnaf security breach'
+2025-05-19 19:33:12,781 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy+fnaf+security+breach
+2025-05-19 19:33:13,855 - CharacterHunter.ClickDetector - INFO - Click detected at (473.15234375, 269.125)
+2025-05-19 19:33:13,899 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:13,906 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_193313_905795.png
+2025-05-19 19:33:13,906 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy+fnaf+security+breach/roxy+fnaf+security+breach_20250519_193313_905795.json
+2025-05-19 19:33:13,907 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy+fnaf+security+breach' in 'dataset/roxy+fnaf+security+breach'
+2025-05-19 19:33:15,102 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnaf s... “5 > T New Chrome available :
+2025-05-19 19:33:16,121 - CharacterHunter.ClickDetector - INFO - Click detected at (335.53515625, 464.21484375)
+2025-05-19 19:33:16,174 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:16,180 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnaf s... “5 _ T New Chrome available _/roxy fnaf s... “5 _ T New Chrome available __20250519_193316_179589.png
+2025-05-19 19:33:16,180 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnaf s... “5 _ T New Chrome available _/roxy fnaf s... “5 _ T New Chrome available __20250519_193316_179589.json
+2025-05-19 19:33:16,180 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnaf s... “5 > T New Chrome available :' in 'dataset/roxy fnaf s... “5 _ T New Chrome available _'
+2025-05-19 19:33:16,319 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   "15 a T New Chrome available :
+2025-05-19 19:33:17,500 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   "25 a T New Chrome available :
+2025-05-19 19:33:18,678 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   "a7 a T New Chrome available :
+2025-05-19 19:33:19,858 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   a T New Chrome available :
+2025-05-19 19:33:19,912 - CharacterHunter.ClickDetector - INFO - Click detected at (534.3828125, 451.41796875)
+2025-05-19 19:33:19,960 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:19,970 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnafts...   a T New Chrome available _/roxy fnafts...   a T New Chrome available __20250519_193319_969350.png
+2025-05-19 19:33:19,970 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnafts...   a T New Chrome available _/roxy fnafts...   a T New Chrome available __20250519_193319_969350.json
+2025-05-19 19:33:19,971 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnafts...   a T New Chrome available :' in 'dataset/roxy fnafts...   a T New Chrome available _'
+2025-05-19 19:33:21,046 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   35 a T New Chrome available :
+2025-05-19 19:33:22,231 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   29 a T New Chrome available :
+2025-05-19 19:33:22,486 - CharacterHunter.ClickDetector - INFO - Click detected at (792.30859375, 441.25390625)
+2025-05-19 19:33:22,553 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:22,572 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnafts...   29 a T New Chrome available _/roxy fnafts...   29 a T New Chrome available __20250519_193322_571066.png
+2025-05-19 19:33:22,573 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnafts...   29 a T New Chrome available _/roxy fnafts...   29 a T New Chrome available __20250519_193322_571066.json
+2025-05-19 19:33:22,573 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnafts...   29 a T New Chrome available :' in 'dataset/roxy fnafts...   29 a T New Chrome available _'
+2025-05-19 19:33:23,431 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   46 a T New Chrome available :
+2025-05-19 19:33:24,608 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   49 a T New Chrome available :
+2025-05-19 19:33:24,970 - CharacterHunter.ClickDetector - INFO - Click detected at (1003.7890625, 449.8046875)
+2025-05-19 19:33:25,032 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:25,050 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnafts...   49 a T New Chrome available _/roxy fnafts...   49 a T New Chrome available __20250519_193325_048383.png
+2025-05-19 19:33:25,050 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnafts...   49 a T New Chrome available _/roxy fnafts...   49 a T New Chrome available __20250519_193325_048383.json
+2025-05-19 19:33:25,051 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnafts...   49 a T New Chrome available :' in 'dataset/roxy fnafts...   49 a T New Chrome available _'
+2025-05-19 19:33:25,799 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   a a T New Chrome available :
+2025-05-19 19:33:26,983 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   59 a T New Chrome available :
+2025-05-19 19:33:27,807 - CharacterHunter.ClickDetector - INFO - Click detected at (110.3515625, 612.6953125)
+2025-05-19 19:33:27,850 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:27,857 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnafts...   59 a T New Chrome available _/roxy fnafts...   59 a T New Chrome available __20250519_193327_856892.png
+2025-05-19 19:33:27,857 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnafts...   59 a T New Chrome available _/roxy fnafts...   59 a T New Chrome available __20250519_193327_856892.json
+2025-05-19 19:33:27,858 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnafts...   59 a T New Chrome available :' in 'dataset/roxy fnafts...   59 a T New Chrome available _'
+2025-05-19 19:33:28,145 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   59 a
+2025-05-19 19:33:29,173 - CharacterHunter.ClickDetector - INFO - Click detected at (671.40625, 897.7890625)
+2025-05-19 19:33:29,227 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:29,236 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnafts...   59 a/roxy fnafts...   59 a_20250519_193329_235298.png
+2025-05-19 19:33:29,236 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnafts...   59 a/roxy fnafts...   59 a_20250519_193329_235298.json
+2025-05-19 19:33:29,236 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnafts...   59 a' in 'dataset/roxy fnafts...   59 a'
+2025-05-19 19:33:30,438 - CharacterHunter.ClickDetector - INFO - Click detected at (826.41015625, 925.23046875)
+2025-05-19 19:33:30,487 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:33:30,500 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnafts...   59 a/roxy fnafts...   59 a_20250519_193330_498734.png
+2025-05-19 19:33:30,500 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnafts...   59 a/roxy fnafts...   59 a_20250519_193330_498734.json
+2025-05-19 19:33:30,500 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnafts...   59 a' in 'dataset/roxy fnafts...   59 a'
+2025-05-19 19:33:31,239 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:33:31,239 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:33:31,239 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:33:31,456 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:33:31,457 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:33:31,457 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:33:31,671 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:36:23,392 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:36:23,498 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:36:23,498 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:36:23,498 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:36:23,499 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:36:23,499 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:36:23,499 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:36:23,499 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:36:23,502 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:36:23,505 - pynput.mouse.Listener - WARNING - This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients.
+2025-05-19 19:37:02,504 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:37:02,608 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:37:02,609 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:37:02,609 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:37:02,609 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:37:02,609 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:37:02,609 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:37:02,610 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:37:02,612 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:37:02,616 - pynput.mouse.Listener - WARNING - This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients.
+2025-05-19 19:37:08,821 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   68 a T New Chrome available :
+2025-05-19 19:37:12,889 - CharacterHunter.ClickDetector - INFO - Click detected at (324.4921875, 458.12890625)
+2025-05-19 19:37:12,951 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:37:12,960 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy fnafts...   68 a T New Chrome available _/roxy fnafts...   68 a T New Chrome available __20250519_193712_959265.png
+2025-05-19 19:37:12,961 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy fnafts...   68 a T New Chrome available _/roxy fnafts...   68 a T New Chrome available __20250519_193712_959265.json
+2025-05-19 19:37:12,961 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy fnafts...   68 a T New Chrome available :' in 'dataset/roxy fnafts...   68 a T New Chrome available _'
+2025-05-19 19:37:15,176 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   69 a T New Chrome available :
+2025-05-19 19:37:17,802 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   "a9 a T New Chrome available :
+2025-05-19 19:37:19,105 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   as a T New Chrome available :
+2025-05-19 19:37:20,405 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   89 a T New Chrome available :
+2025-05-19 19:37:21,712 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnafts...   99 a T New Chrome available :
+2025-05-19 19:37:23,347 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:37:23,348 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:37:23,348 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:37:23,480 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:37:23,481 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:37:23,481 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:37:23,718 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:37:23,718 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:37:23,718 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:37:23,731 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:41:12,705 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:41:12,792 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:41:12,793 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:41:12,793 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:41:12,793 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:41:12,793 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:41:12,793 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:41:12,794 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:41:12,798 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:41:12,801 - pynput.mouse.Listener - WARNING - This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients.
+2025-05-19 19:41:16,508 - CharacterHunter.ScreenWatcher - INFO - New search detected: Itsi 9265 js0
+2025-05-19 19:41:17,654 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnaf security breach
+2025-05-19 19:41:27,185 - CharacterHunter.ScreenWatcher - INFO - New search detected: 2025- 5-19 19:
+2025-05-19 19:41:28,358 - CharacterHunter.ScreenWatcher - INFO - New search detected: te 2 results it 2 25- 5-19 19:
+2025-05-19 19:41:29,655 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnaf security breach
+2025-05-19 19:41:46,957 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:41:46,957 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:41:46,957 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:41:47,432 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:42:15,750 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:42:15,831 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:42:15,831 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:42:15,831 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:42:15,831 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:42:15,831 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:42:15,832 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:42:15,832 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:42:15,835 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:42:15,839 - pynput.mouse.Listener - WARNING - This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients.
+2025-05-19 19:42:36,536 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:42:36,537 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:42:36,537 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:42:36,652 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:42:36,652 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:42:36,653 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:42:36,869 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:42:36,870 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:42:36,870 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:42:37,008 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:42:41,280 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:42:41,375 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:42:41,376 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1728, 'height': 300}
+2025-05-19 19:42:41,376 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:42:41,376 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:42:41,376 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:42:41,376 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:42:41,377 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:42:41,380 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:42:45,610 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnaf security breach
+2025-05-19 19:42:45,639 - CharacterHunter.ClickDetector - INFO - Click detected at (1235.01953125, 196.96875)
+2025-05-19 19:42:45,679 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:42:45,685 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_194245_684673.png
+2025-05-19 19:42:45,685 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_194245_684673.json
+2025-05-19 19:42:45,685 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:42:48,415 - CharacterHunter.ClickDetector - INFO - Click detected at (350.79296875, 492.55859375)
+2025-05-19 19:42:48,457 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:42:48,485 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_194248_483281.png
+2025-05-19 19:42:48,485 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_194248_483281.json
+2025-05-19 19:42:48,486 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:42:51,924 - CharacterHunter.ClickDetector - INFO - Click detected at (550.33203125, 432.77734375)
+2025-05-19 19:42:51,956 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:42:51,981 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_194251_979743.png
+2025-05-19 19:42:51,982 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_194251_979743.json
+2025-05-19 19:42:51,983 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:42:54,334 - CharacterHunter.ClickDetector - INFO - Click detected at (159.67578125, 594.421875)
+2025-05-19 19:42:54,374 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:42:54,389 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_194254_385874.png
+2025-05-19 19:42:54,389 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_194254_385874.json
+2025-05-19 19:42:54,389 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:42:56,395 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:42:56,396 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:42:56,396 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:42:56,662 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:42:56,663 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:42:56,663 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:42:56,663 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
