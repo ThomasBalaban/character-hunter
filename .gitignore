@@ -1,2 +1,4 @@
 dataset/
-__pycache__/
+__pycache__/**
+captured_images/
+**.log

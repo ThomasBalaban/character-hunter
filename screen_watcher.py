@@ -9,12 +9,13 @@ import subprocess
 import shutil
 import os
 from datetime import datetime
+import cv2
 import numpy as np
 import pytesseract
 from PIL import Image
-import mss
 import AppKit
 import logging
+from apple_screen_capture import AppleScreenCapture
 
 logger = logging.getLogger("CharacterHunter.ScreenWatcher")
 
@@ -26,16 +27,17 @@ class ScreenWatcher:
         self.running = False
         self.current_search = None
         self.thread = None
-        self.sct = mss.mss()
+        
+        # Initialize the Apple screen capture
+        self.screen_capturer = AppleScreenCapture()
         
         # Region to monitor for the search bar (top portion of screen)
-        # Make this wider and taller to capture more screen area
-        screen_width = mss.mss().monitors[1]['width']  # Get primary monitor width
+        screen_width = 1440  # Default width, will be updated on first capture
         self.search_region = {
             'top': 0, 
             'left': 0, 
             'width': screen_width,  # Use full width of screen
-            'height': 300  # Increase height to capture more of the top area
+            'height': 300  # Capture top portion of screen
         }
         
         # Configure pytesseract path - use the one we found with "which tesseract"
@@ -61,6 +63,8 @@ class ScreenWatcher:
         self.running = False
         if self.thread:
             self.thread.join(timeout=1.0)
+            # Clean up screen capturer
+            self.screen_capturer.cleanup()
             logger.info("ScreenWatcher stopped")
     
     def _is_chrome_with_google(self):
@@ -83,6 +87,11 @@ class ScreenWatcher:
     def _extract_search_query(self, screenshot):
         """Extract the Google search query from a screenshot using OCR"""
         try:
+            # Check if screenshot is valid
+            if screenshot is None or screenshot.size == 0:
+                logger.error("Screenshot is empty or None")
+                return None
+                
             # Convert to PIL Image and enhance for OCR
             img = Image.fromarray(screenshot)
             # Enhance image for better OCR
@@ -283,45 +292,64 @@ class ScreenWatcher:
         """Main monitoring loop that runs in a separate thread"""
         last_search = None
         chrome_active_count = 0  # Counter for consecutive Chrome detections
+        last_capture_time = 0
+        capture_interval = 2.0  # Only capture every 2 seconds to avoid excessive CPU usage
         
         while self.running:
             try:
                 # Check if Chrome with Google is active
                 is_chrome_active = self._is_chrome_with_google()
                 
+                current_time = time.time()
+                
                 if is_chrome_active:
                     chrome_active_count += 1
                     
                     # Only process after Chrome has been active for a few cycles
-                    # This helps avoid processing during window transitions
-                    if chrome_active_count > 2:
-                        # Capture screen region
-                        screenshot = np.array(self.sct.grab(self.search_region))
+                    # And only capture at the specified interval
+                    if (chrome_active_count > 2 and 
+                        current_time - last_capture_time >= capture_interval):
                         
-                        # Extract search query
-                        search_query = self._extract_search_query(screenshot)
+                        last_capture_time = current_time
                         
-                        # If found a new search query
-                        if search_query and search_query != last_search:
-                            character, source = self._parse_character_and_source(search_query)
+                        # Capture screen region using AppleScript method
+                        logger.debug(f"Capturing search region: {self.search_region}")
+                        screenshot = self.screen_capturer.capture_region(self.search_region)
+                        
+                        # Check if screenshot was successfully captured
+                        if screenshot is not None:
+                            # Save debug screenshot periodically
+                            if int(current_time) % 10 == 0:  # Every 10 seconds approx
+                                debug_path = f"debug_search_{int(current_time)}.png"
+                                cv2.imwrite(debug_path, cv2.cvtColor(screenshot, cv2.COLOR_RGB2BGR))
+                                logger.debug(f"Saved debug search image to {debug_path}")
                             
-                            if character:
-                                self.current_search = {
-                                    'query': search_query,
-                                    'character': character,
-                                    'source': source,
-                                    'timestamp': datetime.now().isoformat()
-                                }
+                            # Extract search query
+                            search_query = self._extract_search_query(screenshot)
+                            
+                            # If found a new search query
+                            if search_query and search_query != last_search:
+                                character, source = self._parse_character_and_source(search_query)
                                 
-                                # Update status window
-                                if source:
-                                    status_msg = f"Detected: '{character}' from '{source}'"
-                                else:
-                                    status_msg = f"Detected: '{character}'"
+                                if character:
+                                    self.current_search = {
+                                        'query': search_query,
+                                        'character': character,
+                                        'source': source,
+                                        'timestamp': datetime.now().isoformat()
+                                    }
                                     
-                                self.status_window.update_status(status_msg)
-                                logger.info(f"New search detected: {search_query}")
-                                last_search = search_query
+                                    # Update status window
+                                    if source:
+                                        status_msg = f"Detected: '{character}' from '{source}'"
+                                    else:
+                                        status_msg = f"Detected: '{character}'"
+                                        
+                                    self.status_window.update_status(status_msg)
+                                    logger.info(f"New search detected: {search_query}")
+                                    last_search = search_query
+                        else:
+                            logger.warning("Failed to capture search region screenshot")
                 else:
                     chrome_active_count = 0  # Reset counter if Chrome not active
                 
@@ -330,6 +358,8 @@ class ScreenWatcher:
                 
             except Exception as e:
                 logger.error(f"Error in screen watcher: {e}")
+                import traceback
+                logger.error(traceback.format_exc())
                 time.sleep(2.0)  # Longer sleep on error
     
     def get_current_search(self):

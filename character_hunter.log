@@ -610,3 +610,324 @@
 2025-05-19 19:42:56,663 - CharacterHunter.Main - INFO - Stopping Character Hunter application
 2025-05-19 19:42:56,663 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
 2025-05-19 19:42:56,663 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 19:52:17,673 - CharacterHunter.Main - INFO - Screen capture permission test passed
+2025-05-19 19:52:17,761 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 19:52:17,761 - CharacterHunter.AppleScreenCapture - INFO - Created temporary directory for screen captures: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_xw_r3txz
+2025-05-19 19:52:17,766 - CharacterHunter.AppleScreenCapture - INFO - screencapture utility is available
+2025-05-19 19:52:17,767 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 19:52:17,767 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 19:52:17,767 - CharacterHunter.AppleScreenCapture - INFO - Created temporary directory for screen captures: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_98aags_p
+2025-05-19 19:52:17,770 - CharacterHunter.AppleScreenCapture - INFO - screencapture utility is available
+2025-05-19 19:52:17,771 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 19:52:17,771 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 19:52:17,771 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 19:52:17,772 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 19:52:17,775 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 19:52:22,545 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnaf security breach
+2025-05-19 19:52:25,493 - CharacterHunter.ClickDetector - INFO - Click detected at (602.421875, 473.734375)
+2025-05-19 19:52:25,598 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:52:25,605 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_195225_604300.png
+2025-05-19 19:52:25,605 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_195225_604300.json
+2025-05-19 19:52:25,605 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:52:27,194 - CharacterHunter.ClickDetector - INFO - Click detected at (1000.640625, 468.09765625)
+2025-05-19 19:52:27,255 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:52:27,261 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_195227_260769.png
+2025-05-19 19:52:27,261 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_195227_260769.json
+2025-05-19 19:52:27,261 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:52:29,072 - CharacterHunter.ClickDetector - INFO - Click detected at (707.90625, 734.3671875)
+2025-05-19 19:52:29,179 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:52:29,186 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_195229_185179.png
+2025-05-19 19:52:29,186 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_195229_185179.json
+2025-05-19 19:52:29,186 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:52:30,200 - CharacterHunter.ClickDetector - INFO - Click detected at (131.37890625, 553.98828125)
+2025-05-19 19:52:30,282 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:52:30,288 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_195230_288173.png
+2025-05-19 19:52:30,289 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_195230_288173.json
+2025-05-19 19:52:30,289 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:52:33,203 - CharacterHunter.ClickDetector - INFO - Click detected at (415.08984375, 932.6640625)
+2025-05-19 19:52:33,296 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:52:33,303 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_195233_302342.png
+2025-05-19 19:52:33,303 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_195233_302342.json
+2025-05-19 19:52:33,303 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:52:34,509 - CharacterHunter.ClickDetector - INFO - Click detected at (421.25, 927.51171875)
+2025-05-19 19:52:34,587 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:52:34,597 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_195234_596894.png
+2025-05-19 19:52:34,598 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_195234_596894.json
+2025-05-19 19:52:34,598 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:52:36,161 - CharacterHunter.ClickDetector - INFO - Click detected at (127.50390625, 660.625)
+2025-05-19 19:52:36,228 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 19:52:36,234 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_195236_234245.png
+2025-05-19 19:52:36,235 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_195236_234245.json
+2025-05-19 19:52:36,235 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 19:52:37,320 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 19:52:37,321 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 19:52:37,323 - CharacterHunter.AppleScreenCapture - INFO - Removed temporary directory: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_98aags_p
+2025-05-19 19:52:37,323 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 19:52:37,347 - CharacterHunter.AppleScreenCapture - INFO - Removed temporary directory: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_xw_r3txz
+2025-05-19 19:52:37,347 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped
+2025-05-19 20:01:42,412 - CharacterHunter.Main - INFO - Screen capture permission test passed with MSS
+2025-05-19 20:01:42,496 - CharacterHunter.StatusWindow - INFO - Status window initialized
+2025-05-19 20:01:42,497 - CharacterHunter.AppleScreenCapture - INFO - Created temporary directory for screen captures: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_i5go147d
+2025-05-19 20:01:42,502 - CharacterHunter.AppleScreenCapture - INFO - screencapture utility is available
+2025-05-19 20:01:42,503 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher initialized with search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:01:42,503 - CharacterHunter.ScreenWatcher - INFO - Using Tesseract OCR at: /opt/homebrew/bin/tesseract
+2025-05-19 20:01:42,503 - CharacterHunter.AppleScreenCapture - INFO - Created temporary directory for screen captures: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_bffdgx9g
+2025-05-19 20:01:42,506 - CharacterHunter.AppleScreenCapture - INFO - screencapture utility is available
+2025-05-19 20:01:42,507 - CharacterHunter.QualityController - INFO - QualityController initialized (stub implementation)
+2025-05-19 20:01:42,507 - CharacterHunter.Main - INFO - Starting Character Hunter application
+2025-05-19 20:01:42,507 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher started
+2025-05-19 20:01:42,508 - CharacterHunter.ClickDetector - INFO - ClickDetector started with pynput listener
+2025-05-19 20:01:42,508 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:42,511 - CharacterHunter.StatusWindow - DEBUG - Status updated: Waiting for user search...
+2025-05-19 20:01:42,511 - CharacterHunter.StatusWindow - INFO - Starting status window main loop
+2025-05-19 20:01:43,014 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:43,520 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:43,963 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:43,963 - CharacterHunter.ClickDetector - DEBUG - Click ignored - not in Chrome
+2025-05-19 20:01:44,027 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:44,533 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:44,797 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:44,798 - CharacterHunter.ClickDetector - DEBUG - Click ignored - not in Chrome
+2025-05-19 20:01:45,036 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:45,541 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:45,572 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:45,573 - CharacterHunter.ClickDetector - DEBUG - Click ignored - not in Chrome
+2025-05-19 20:01:46,043 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:46,549 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:47,055 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:01:47,119 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:47,120 - CharacterHunter.ClickDetector - DEBUG - Click ignored - no active search detected
+2025-05-19 20:01:47,562 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:48,068 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:48,569 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:48,570 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:01:48,711 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:01:48,749 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_wuqxu_mf_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_wuqxu_mf', 'txt']
+2025-05-19 20:01:49,293 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: @ Chrome
+
+File Edit
+
+Waiting for user search...
+
+vy __pyeauic__
+
+View
+
+= apple_screen_captur
+
+2025-0...
+2025-05-19 20:01:49,293 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:01:49,293 - CharacterHunter.ScreenWatcher - DEBUG - Parsed FNAF character: 'roxy', source: 'FNAF security breach'
+2025-05-19 20:01:49,294 - CharacterHunter.StatusWindow - DEBUG - Status updated: Detected: 'roxy' from 'FNAF security breach'
+2025-05-19 20:01:49,294 - CharacterHunter.ScreenWatcher - INFO - New search detected: roxy fnaf security breach
+2025-05-19 20:01:49,800 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:50,306 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:50,810 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:50,811 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:01:50,937 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:01:50,964 - CharacterHunter.ScreenWatcher - DEBUG - Saved debug search image to debug_search_1747699310.png
+2025-05-19 20:01:50,977 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_xoybukpm_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_xoybukpm', 'txt']
+2025-05-19 20:01:51,490 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: @ Chrome File Edit View History Bookmarks Profiles Tab Window Help | @ o% o% 329% 32% tw OO
+
+e080 @ ...
+2025-05-19 20:01:51,490 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:01:51,996 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:52,502 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:53,006 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:53,007 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:01:53,151 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:01:53,176 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_9no_5uep_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_9no_5uep', 'txt']
+2025-05-19 20:01:53,640 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: @ Chrome File Edit View History Bookmarks Profiles Tab Window Help | @® fa% 9% 39% 32% tw O OC
+
+e080...
+2025-05-19 20:01:53,640 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:01:53,995 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:53,996 - CharacterHunter.StatusWindow - DEBUG - Status updated: Clicked! Capturing image...
+2025-05-19 20:01:53,997 - CharacterHunter.ClickDetector - INFO - Click detected at (394.765625, 486.671875) in Chrome
+2025-05-19 20:01:53,997 - CharacterHunter.ClickDetector - DEBUG - Capturing region: {'top': 336.671875, 'left': 244.765625, 'width': 300, 'height': 300}
+2025-05-19 20:01:54,092 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:01:54,098 - CharacterHunter.ClickDetector - DEBUG - Captured image at (394.765625, 486.671875) of size (602, 602, 3)
+2025-05-19 20:01:54,101 - CharacterHunter.ClickDetector - DEBUG - Saved debug image to debug_click_1747699313.png
+2025-05-19 20:01:54,106 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 20:01:54,107 - CharacterHunter.StatusWindow - DEBUG - Status updated: Processing image...
+2025-05-19 20:01:54,107 - CharacterHunter.DataTagger - DEBUG - Preprocessing image of shape (602, 602, 3)
+2025-05-19 20:01:54,107 - CharacterHunter.DataTagger - DEBUG - Original dimensions: 602x602, aspect ratio: 1.00
+2025-05-19 20:01:54,107 - CharacterHunter.DataTagger - DEBUG - Resizing to: 512x512
+2025-05-19 20:01:54,108 - CharacterHunter.DataTagger - DEBUG - Created padded canvas of size (512, 512)
+2025-05-19 20:01:54,112 - CharacterHunter.DataTagger - DEBUG - Image preprocessing complete
+2025-05-19 20:01:54,114 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_200154_113202.png
+2025-05-19 20:01:54,114 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_200154_113202.json
+2025-05-19 20:01:54,114 - CharacterHunter.StatusWindow - DEBUG - Status updated: Saved image for 'roxy'
+2025-05-19 20:01:54,114 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 20:01:54,145 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:54,651 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:55,158 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:55,160 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:01:55,291 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:01:55,317 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_uyyqiz75_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_uyyqiz75', 'txt']
+2025-05-19 20:01:55,827 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: @ Chrome File Edit View History Bookmarks Profiles Tab Window Help | GS fam 9% 39% 32% tw O CO
+
+e080...
+2025-05-19 20:01:55,827 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:01:56,121 - CharacterHunter.StatusWindow - DEBUG - Status updated: Ready for next image
+2025-05-19 20:01:56,333 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:56,839 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:57,344 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:57,344 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:01:57,485 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:01:57,512 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_63e2vzj2_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_63e2vzj2', 'txt']
+2025-05-19 20:01:58,046 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: @ Chrome
+
+File Edit
+
+Ready for next image
+
+vy __pyeauic__
+
+View
+
+= apple_screen_captur
+
+2025-05-19 2...
+2025-05-19 20:01:58,046 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:01:58,049 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:58,049 - CharacterHunter.StatusWindow - DEBUG - Status updated: Clicked! Capturing image...
+2025-05-19 20:01:58,049 - CharacterHunter.ClickDetector - INFO - Click detected at (1009.0703125, 454.36328125) in Chrome
+2025-05-19 20:01:58,049 - CharacterHunter.ClickDetector - DEBUG - Capturing region: {'top': 304.36328125, 'left': 859.0703125, 'width': 300, 'height': 300}
+2025-05-19 20:01:58,098 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:01:58,103 - CharacterHunter.ClickDetector - DEBUG - Captured image at (1009.0703125, 454.36328125) of size (602, 602, 3)
+2025-05-19 20:01:58,106 - CharacterHunter.ClickDetector - DEBUG - Saved debug image to debug_click_1747699318.png
+2025-05-19 20:01:58,106 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 20:01:58,106 - CharacterHunter.StatusWindow - DEBUG - Status updated: Processing image...
+2025-05-19 20:01:58,107 - CharacterHunter.DataTagger - DEBUG - Preprocessing image of shape (602, 602, 3)
+2025-05-19 20:01:58,107 - CharacterHunter.DataTagger - DEBUG - Original dimensions: 602x602, aspect ratio: 1.00
+2025-05-19 20:01:58,107 - CharacterHunter.DataTagger - DEBUG - Resizing to: 512x512
+2025-05-19 20:01:58,108 - CharacterHunter.DataTagger - DEBUG - Created padded canvas of size (512, 512)
+2025-05-19 20:01:58,112 - CharacterHunter.DataTagger - DEBUG - Image preprocessing complete
+2025-05-19 20:01:58,112 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_200158_112163.png
+2025-05-19 20:01:58,112 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_200158_112163.json
+2025-05-19 20:01:58,113 - CharacterHunter.StatusWindow - DEBUG - Status updated: Saved image for 'roxy'
+2025-05-19 20:01:58,113 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 20:01:58,549 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:01:58,871 - CharacterHunter.ClickDetector - DEBUG - Click ignored due to debounce
+2025-05-19 20:01:59,053 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:01:59,555 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:00,061 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:00,120 - CharacterHunter.StatusWindow - DEBUG - Status updated: Ready for next image
+2025-05-19 20:02:00,567 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:01,074 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:01,577 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:02,082 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:02,588 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:03,090 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:03,482 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Code
+2025-05-19 20:02:03,483 - CharacterHunter.ClickDetector - DEBUG - Click ignored - not in Chrome
+2025-05-19 20:02:03,596 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:04,102 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:04,608 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:05,112 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:05,618 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:06,123 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:06,626 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:06,824 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:06,825 - CharacterHunter.ClickDetector - DEBUG - Click ignored - not in Chrome
+2025-05-19 20:02:07,131 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: python
+2025-05-19 20:02:07,636 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: python
+2025-05-19 20:02:08,129 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:08,130 - CharacterHunter.StatusWindow - DEBUG - Status updated: Clicked! Capturing image...
+2025-05-19 20:02:08,130 - CharacterHunter.ClickDetector - INFO - Click detected at (1464.34375, 256.296875) in Chrome
+2025-05-19 20:02:08,130 - CharacterHunter.ClickDetector - DEBUG - Capturing region: {'top': 106.296875, 'left': 1314.34375, 'width': 300, 'height': 300}
+2025-05-19 20:02:08,140 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:08,199 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:02:08,203 - CharacterHunter.ClickDetector - DEBUG - Captured image at (1464.34375, 256.296875) of size (602, 602, 3)
+2025-05-19 20:02:08,205 - CharacterHunter.ClickDetector - DEBUG - Saved debug image to debug_click_1747699328.png
+2025-05-19 20:02:08,205 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 20:02:08,206 - CharacterHunter.StatusWindow - DEBUG - Status updated: Processing image...
+2025-05-19 20:02:08,206 - CharacterHunter.DataTagger - DEBUG - Preprocessing image of shape (602, 602, 3)
+2025-05-19 20:02:08,206 - CharacterHunter.DataTagger - DEBUG - Original dimensions: 602x602, aspect ratio: 1.00
+2025-05-19 20:02:08,206 - CharacterHunter.DataTagger - DEBUG - Resizing to: 512x512
+2025-05-19 20:02:08,207 - CharacterHunter.DataTagger - DEBUG - Created padded canvas of size (512, 512)
+2025-05-19 20:02:08,212 - CharacterHunter.DataTagger - DEBUG - Image preprocessing complete
+2025-05-19 20:02:08,213 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_200208_212252.png
+2025-05-19 20:02:08,213 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_200208_212252.json
+2025-05-19 20:02:08,213 - CharacterHunter.StatusWindow - DEBUG - Status updated: Saved image for 'roxy'
+2025-05-19 20:02:08,213 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 20:02:08,649 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:09,155 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:09,156 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:02:09,276 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:02:09,302 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_xidi0ekx_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_xidi0ekx', 'txt']
+2025-05-19 20:02:09,813 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: cPU GPU RAM ssD Sensor
+
+@ Chrome File Edit View History Bookmarks Profiles Tab Window Help | @ i, o%...
+2025-05-19 20:02:09,813 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:02:10,219 - CharacterHunter.StatusWindow - DEBUG - Status updated: Ready for next image
+2025-05-19 20:02:10,319 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:10,822 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:11,323 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:11,323 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:02:11,444 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:02:11,472 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_y1uenm_y_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_y1uenm_y', 'txt']
+2025-05-19 20:02:12,037 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: @ Chrome
+
+File
+
+Edit View
+
+Ready for next image
+
+vy __pyeauic__
+
+= apple_screen_captur
+
+2025-@5-19 2...
+2025-05-19 20:02:12,037 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:02:12,544 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:13,046 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:13,548 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:13,549 - CharacterHunter.ScreenWatcher - DEBUG - Capturing search region: {'top': 0, 'left': 0, 'width': 1440, 'height': 300}
+2025-05-19 20:02:13,689 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:02:13,717 - pytesseract - DEBUG - ['/opt/homebrew/bin/tesseract', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_3piynkxs_input.PNG', '/var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/tess_3piynkxs', 'txt']
+2025-05-19 20:02:14,279 - CharacterHunter.ScreenWatcher - DEBUG - OCR text: @ Chrome File Edit View
+
+Ready for next image
+
+vy __pyeauic__
+
+= apple_screen_captur
+
+2025-05-19 20:...
+2025-05-19 20:02:14,279 - CharacterHunter.ScreenWatcher - DEBUG - Found search query via pattern: roxy fnaf security breach
+2025-05-19 20:02:14,785 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:14,996 - CharacterHunter.ScreenWatcher - DEBUG - Detected active application: Google Chrome
+2025-05-19 20:02:14,997 - CharacterHunter.StatusWindow - DEBUG - Status updated: Clicked! Capturing image...
+2025-05-19 20:02:14,997 - CharacterHunter.ClickDetector - INFO - Click detected at (149.578125, 564.31640625) in Chrome
+2025-05-19 20:02:14,997 - CharacterHunter.ClickDetector - DEBUG - Capturing region: {'top': 414.31640625, 'left': 0, 'width': 300, 'height': 300}
+2025-05-19 20:02:15,068 - CharacterHunter.AppleScreenCapture - DEBUG - screencapture completed: 0
+2025-05-19 20:02:15,073 - CharacterHunter.ClickDetector - DEBUG - Captured image at (149.578125, 564.31640625) of size (602, 600, 3)
+2025-05-19 20:02:15,080 - CharacterHunter.ClickDetector - DEBUG - Saved debug image to debug_click_1747699334.png
+2025-05-19 20:02:15,080 - CharacterHunter.DataTagger - INFO - DataTagger initialized
+2025-05-19 20:02:15,081 - CharacterHunter.StatusWindow - DEBUG - Status updated: Processing image...
+2025-05-19 20:02:15,081 - CharacterHunter.DataTagger - DEBUG - Preprocessing image of shape (602, 600, 3)
+2025-05-19 20:02:15,081 - CharacterHunter.DataTagger - DEBUG - Original dimensions: 600x602, aspect ratio: 1.00
+2025-05-19 20:02:15,081 - CharacterHunter.DataTagger - DEBUG - Resizing to: 510x512
+2025-05-19 20:02:15,082 - CharacterHunter.DataTagger - DEBUG - Created padded canvas of size (512, 512)
+2025-05-19 20:02:15,086 - CharacterHunter.DataTagger - DEBUG - Image preprocessing complete
+2025-05-19 20:02:15,087 - CharacterHunter.DataTagger - INFO - Saved image to dataset/roxy/roxy_20250519_200215_087112.png
+2025-05-19 20:02:15,087 - CharacterHunter.DataTagger - INFO - Saved metadata to dataset/roxy/roxy_20250519_200215_087112.json
+2025-05-19 20:02:15,088 - CharacterHunter.StatusWindow - DEBUG - Status updated: Saved image for 'roxy'
+2025-05-19 20:02:15,088 - CharacterHunter.DataTagger - INFO - Successfully saved image for 'roxy' in 'dataset/roxy'
+2025-05-19 20:02:15,290 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:15,796 - CharacterHunter.ScreenWatcher - DEBUG - Active application is not Chrome: Terminal
+2025-05-19 20:02:15,800 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 20:02:15,800 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 20:02:15,801 - CharacterHunter.AppleScreenCapture - INFO - Removed temporary directory: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_bffdgx9g
+2025-05-19 20:02:15,802 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 20:02:16,016 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 20:02:16,016 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 20:02:16,016 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 20:02:16,219 - CharacterHunter.Main - INFO - Received signal 2, shutting down...
+2025-05-19 20:02:16,220 - CharacterHunter.Main - INFO - Stopping Character Hunter application
+2025-05-19 20:02:16,220 - CharacterHunter.ClickDetector - INFO - ClickDetector stopped
+2025-05-19 20:02:16,298 - CharacterHunter.AppleScreenCapture - INFO - Removed temporary directory: /var/folders/gn/bgh50cgj6ls4_mvfbgt60c4c0000gn/T/character_hunter_i5go147d
+2025-05-19 20:02:16,299 - CharacterHunter.ScreenWatcher - INFO - ScreenWatcher stopped

@@ -7,6 +7,8 @@ import logging
 import signal
 import mss
 import numpy as np
+import cv2
+import os
 from status_window import StatusWindow
 from screen_watcher import ScreenWatcher
 from click_detector import ClickDetector
@@ -14,7 +16,7 @@ from quality_controller import QualityController
 
 # Configure logging
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,  # Use DEBUG level for detailed logging
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler("character_hunter.log"),
@@ -90,16 +92,43 @@ class CharacterHunter:
 def check_screen_capture_permission():
     """Check if the app has screen recording permission"""
     try:
+        print("\nTesting screen capture permission...")
+        
+        # Create debugging directory
+        debug_dir = os.path.join(os.getcwd(), "debug_captures")
+        os.makedirs(debug_dir, exist_ok=True)
+        print(f"Debug images will be saved to: {debug_dir}")
+        
         # Try to capture a small region of the screen
         with mss.mss() as sct:
-            test_region = {'top': 0, 'left': 0, 'width': 10, 'height': 10}
+            test_region = {'top': 0, 'left': 0, 'width': 100, 'height': 100}
             test_screenshot = np.array(sct.grab(test_region))
+            
+            # Save the test capture
+            test_path = os.path.join(debug_dir, "test_capture_mss.png")
+            cv2.imwrite(test_path, cv2.cvtColor(test_screenshot, cv2.COLOR_BGRA2BGR))
             
             # Check if the screenshot is all black (indicates no permission)
             if np.max(test_screenshot) < 5:  # Almost completely black
                 logger.warning("Screen capture permission not granted - screenshots appear black.")
-                print("\n\033[1;31mWARNING: Screen capture permission may not be granted\033[0m")
-                print("Images appear black, which typically means macOS is blocking screen recording.")
+                print("\n\033[1;31mWARNING: MSS capture failed - screenshots appear black\033[0m")
+                
+                # Try using AppleScreenCapture as a fallback
+                from apple_screen_capture import AppleScreenCapture
+                apple_capturer = AppleScreenCapture()
+                apple_test = apple_capturer.capture_region(test_region)
+                
+                if apple_test is not None:
+                    # Save the AppleScript test capture
+                    apple_path = os.path.join(debug_dir, "test_capture_applescript.png")
+                    cv2.imwrite(apple_path, cv2.cvtColor(apple_test, cv2.COLOR_RGB2BGR))
+                    
+                    if np.mean(apple_test) > 5:  # Not all black
+                        print("\033[1;32mGood news! AppleScript capture works correctly\033[0m")
+                        print("The app will use this method instead.")
+                        logger.info("AppleScript capture method works")
+                        return True
+                
                 print("\nTo fix this:")
                 print("1. Go to System Settings > Privacy & Security > Screen Recording")
                 print("2. Enable the permission for Terminal (or your Python IDE)")
@@ -111,11 +140,20 @@ def check_screen_capture_permission():
                     logger.info("User chose to exit due to permission issues")
                     return False
             else:
-                logger.info("Screen capture permission test passed")
+                # MSS capture works
+                logger.info("Screen capture permission test passed with MSS")
+                print("\033[1;32mScreen capture permission test passed!\033[0m")
+        
+        return True
     except Exception as e:
         logger.error(f"Error checking screen capture permission: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        print(f"\n\033[1;31mError testing screen capture: {e}\033[0m")
         
-    return True
+        # Ask if they want to continue anyway
+        response = input("Continue anyway despite test error? (y/n): ").strip().lower()
+        return response == 'y'
 
 def main():
     """Entry point for the application"""
@@ -130,6 +168,10 @@ def main():
     
     sys.excepthook = handle_exception
     
+    print("\n=== Character Hunter - AI Training Data Collector ===\n")
+    print("This app detects Google searches and captures images when you click,")
+    print("automatically labeling them for AI training purposes.\n")
+    
     # Check for screen capture permission
     if not check_screen_capture_permission():
         print("Exiting due to permission issues. Please fix and try again.")
@@ -138,13 +180,25 @@ def main():
     # Create and start the application
     app = CharacterHunter()
     try:
-        print("Starting Character Hunter...")
-        print("Press Ctrl+C in terminal or click × on status window to exit")
+        print("\nStarting Character Hunter...")
+        print("Workflow:")
+        print("1. Use Chrome to search for a character (e.g., \"Roxy FNAF Security Breach\")")
+        print("2. Click on relevant images while in Chrome")
+        print("3. Images will be automatically captured and labeled")
+        print("\nPress Ctrl+C in terminal or click × on status window to exit")
         app.start()
     except KeyboardInterrupt:
         logger.info("Application terminated by user")
+        print("\nCharacter Hunter terminated by user")
+    except Exception as e:
+        logger.error(f"Application error: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
+        print(f"\nApplication error: {e}")
     finally:
         app.stop()
+        print("\nThank you for using Character Hunter!")
+        print(f"Captured images have been saved to the 'dataset' directory.")
 
 
 if __name__ == "__main__":
